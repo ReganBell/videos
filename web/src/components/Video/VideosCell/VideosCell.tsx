@@ -11,6 +11,7 @@ export const QUERY = gql`
       id
       url
       title
+      imageUrl
       description
       user {
         id

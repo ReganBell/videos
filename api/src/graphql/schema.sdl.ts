@@ -35,6 +35,7 @@ export const schema = gql`
     userId: Int!
     url: String!
     title: String!
+    imageUrl: String
     description: String
     createdAt: DateTime!
     updatedAt: DateTime!
@@ -60,12 +61,14 @@ export const schema = gql`
   input CreateVideoInput {
     url: String!
     title: String!
+    imageUrl: String
     description: String
   }
 
   input UpdateVideoInput {
     url: String
     title: String
+    imageUrl: String
     description: String
   }
 

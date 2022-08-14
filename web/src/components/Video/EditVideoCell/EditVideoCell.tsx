@@ -13,6 +13,7 @@ export const QUERY = gql`
       id
       url
       title
+      imageUrl
       description
       createdAt
       updatedAt
@@ -25,6 +26,7 @@ const UPDATE_VIDEO_MUTATION = gql`
       id
       url
       title
+      imageUrl
       description
       createdAt
       updatedAt
